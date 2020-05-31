@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1741dc60d9.js" crossorigin="anonymous"></script>
@@ -18,30 +18,30 @@
             <i id="button_remove" class="fas fa-backspace" onclick="remove()"></i>
         </div>
         <div class="buttons_area">
-            <div class="button_c" onclick="limpar()">C</div>
-            <div class="button_oparation" onclick="inserir( '(')">(</div>
-            <div class="button_oparation" onclick="inserir( ')')">)</div>
-            <div class="button_oparation" onclick="inserir( '/')">÷</div>
+            <div class="button_c" onclick="clean()">C</div>
+            <div class="button_oparation" onclick="insert( '(')">(</div>
+            <div class="button_oparation" onclick="insert( ')')">)</div>
+            <div class="button_oparation" onclick="insert( '/')">÷</div>
 
-            <div class="button_number" onclick="inserir('7')">7</div>
-            <div class="button_number" onclick="inserir('8')">8</div>
-            <div class="button_number" onclick="inserir('9')">9</div>
-            <div class="button_oparation " onclick="inserir('*')">*</div>
+            <div class="button_number" onclick="insert('7')">7</div>
+            <div class="button_number" onclick="insert('8')">8</div>
+            <div class="button_number" onclick="insert('9')">9</div>
+            <div class="button_oparation " onclick="insert('*')">*</div>
 
-            <div class="button_number" onclick="inserir('4')">4</div>
-            <div class="button_number" onclick="inserir('5')">5</div>
-            <div class="button_number" onclick="inserir('6')">6</div>
-            <div class="button_oparation" onclick="inserir('-')">−</div>
+            <div class="button_number" onclick="insert('4')">4</div>
+            <div class="button_number" onclick="insert('5')">5</div>
+            <div class="button_number" onclick="insert('6')">6</div>
+            <div class="button_oparation" onclick="insert('-')">−</div>
 
-            <div class="button_number" onclick="inserir('1')">1</div>
-            <div class="button_number" onclick="inserir('2')">2</div>
-            <div class="button_number" onclick="inserir('3')">3</div>
-            <div class="button_oparation" onclick="inserir('+')">+</div>
+            <div class="button_number" onclick="insert('1')">1</div>
+            <div class="button_number" onclick="insert('2')">2</div>
+            <div class="button_number" onclick="insert('3')">3</div>
+            <div class="button_oparation" onclick="insert('+')">+</div>
 
-            <div id="zero" class="button_number" onclick="inserir('0')">0</div>
-            <div class="button_oparation" onclick="inserir('.')">.</div>
-            <div class="button_oparation" onclick="inserir('^')">^</div>
-            <div id="equal" class="button_oparation" onclick="calcular()"> =</div>
+            <div id="zero" class="button_number" onclick="insert('0')">0</div>
+            <div class="button_oparation" onclick="insert('.')">.</div>
+            <div class="button_oparation" onclick="insert('^')">^</div>
+            <div id="equal" class="button_oparation" onclick="calculate()"> =</div>
         </div>
     </div>
 
