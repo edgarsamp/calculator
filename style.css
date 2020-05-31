@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #2970a0, #1abc9c);
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.calc {
+    margin: auto;
+    margin-top: 20px;
+    width: 315px;
+    height: 450px;
+    background: linear-gradient(33deg, #2b3c4d, #1e2a38);
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 285px 30px;
+    text-align: right;
+    width: 315px;
+    height: 75px;
+    color: white;
+    line-height: 75px;
+    background-color: #0000002a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#button_remove {
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height: 75px;
+}
+
+#button_remove:hover {
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height: 75px;
+    color: rgb(241, 115, 115);
+}
+
+.buttons_area {
+    width: 315px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(5, 20%);
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 75px;
+}
+
+#zero {
+    border-bottom-left-radius: 5px;
+}
+
+#equal {
+    border-bottom-right-radius: 5px;
+}
+
+.button_oparation {
+    color: #e67e22;
+}
+
+.button_oparation:hover {
+    background-color: #e67e22;
+    color: white;
+}
+
+.button_c {
+    color: #e74c3c;
+}
+
+.button_c:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.button_number {
+    color: #9acd32;
+}
+
+.button_number:hover {
+    background-color: #9acd32;
+    color: white;
+}

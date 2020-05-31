@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1741dc60d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="calc">
+        <div class="display">
+            <div class="display_content"></div>
+            <i id="button_remove" class="fas fa-backspace" onclick="remove()"></i>
+        </div>
+        <div class="buttons_area">
+            <div class="button_c" onclick="limpar()">C</div>
+            <div class="button_oparation" onclick="inserir( '(')">(</div>
+            <div class="button_oparation" onclick="inserir( ')')">)</div>
+            <div class="button_oparation" onclick="inserir( '/')">÷</div>
+
+            <div class="button_number" onclick="inserir('7')">7</div>
+            <div class="button_number" onclick="inserir('8')">8</div>
+            <div class="button_number" onclick="inserir('9')">9</div>
+            <div class="button_oparation " onclick="inserir('*')">*</div>
+
+            <div class="button_number" onclick="inserir('4')">4</div>
+            <div class="button_number" onclick="inserir('5')">5</div>
+            <div class="button_number" onclick="inserir('6')">6</div>
+            <div class="button_oparation" onclick="inserir('-')">−</div>
+
+            <div class="button_number" onclick="inserir('1')">1</div>
+            <div class="button_number" onclick="inserir('2')">2</div>
+            <div class="button_number" onclick="inserir('3')">3</div>
+            <div class="button_oparation" onclick="inserir('+')">+</div>
+
+            <div id="zero" class="button_number" onclick="inserir('0')">0</div>
+            <div class="button_oparation" onclick="inserir('.')">.</div>
+            <div class="button_oparation" onclick="inserir('^')">^</div>
+            <div id="equal" class="button_oparation" onclick="calcular()"> =</div>
+        </div>
+    </div>
+
+    <script src="script.js "></script>
+</body>
+
+</html>
