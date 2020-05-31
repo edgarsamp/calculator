@@ -2,13 +2,12 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, #2970a0, #1abc9c);
-    height: 100vh;
     font-family: 'Roboto Mono', monospace;
 }
 
 .calc {
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 315px;
     height: 450px;
     background: linear-gradient(33deg, #2b3c4d, #1e2a38);
