@@ -15,33 +15,34 @@
     <div class="calc">
         <div class="display">
             <div class="display_content"></div>
-            <i id="button_remove" class="fas fa-backspace" onclick="remove()"></i>
+            <span><i id="button_remove" class="fas fa-backspace" onclick="remove()"></i></span>
+            
         </div>
         <div class="buttons_area">
-            <div class="button_c" onclick="clean()">C</div>
-            <div class="button_oparation" onclick="insert( '(')">(</div>
-            <div class="button_oparation" onclick="insert( ')')">)</div>
-            <div class="button_oparation" onclick="insert( '/')">÷</div>
+            <div class="button c" onclick="clean()">C</div>
+            <div class="button oparation" onclick="insert( '(')">(</div>
+            <div class="button oparation" onclick="insert( ')')">)</div>
+            <div class="button oparation" onclick="insert( '/')">÷</div>
 
-            <div class="button_number" onclick="insert('7')">7</div>
-            <div class="button_number" onclick="insert('8')">8</div>
-            <div class="button_number" onclick="insert('9')">9</div>
-            <div class="button_oparation " onclick="insert('*')">*</div>
+            <div class="button number" onclick="insert('7')">7</div>
+            <div class="button number" onclick="insert('8')">8</div>
+            <div class="button number" onclick="insert('9')">9</div>
+            <div class="button oparation " onclick="insert('*')">*</div>
 
-            <div class="button_number" onclick="insert('4')">4</div>
-            <div class="button_number" onclick="insert('5')">5</div>
-            <div class="button_number" onclick="insert('6')">6</div>
-            <div class="button_oparation" onclick="insert('-')">−</div>
+            <div class="button number" onclick="insert('4')">4</div>
+            <div class="button number" onclick="insert('5')">5</div>
+            <div class="button number" onclick="insert('6')">6</div>
+            <div class="button oparation" onclick="insert('-')">−</div>
 
-            <div class="button_number" onclick="insert('1')">1</div>
-            <div class="button_number" onclick="insert('2')">2</div>
-            <div class="button_number" onclick="insert('3')">3</div>
-            <div class="button_oparation" onclick="insert('+')">+</div>
+            <div class="button number" onclick="insert('1')">1</div>
+            <div class="button number" onclick="insert('2')">2</div>
+            <div class="button number" onclick="insert('3')">3</div>
+            <div class="button oparation" onclick="insert('+')">+</div>
 
-            <div id="zero" class="button_number" onclick="insert('0')">0</div>
-            <div class="button_oparation" onclick="insert('.')">.</div>
-            <div class="button_oparation" onclick="insert('^')">^</div>
-            <div id="equal" class="button_oparation" onclick="calculate()"> =</div>
+            <div id="zero" class="button number" onclick="insert('0')">0</div>
+            <div class="button oparation" onclick="insert('.')">.</div>
+            <div class="button oparation" onclick="insert('^')">^</div>
+            <div id="equal" class="button oparation" onclick="calculate()"> =</div>
         </div>
     </div>
 

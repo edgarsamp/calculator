@@ -27,14 +27,18 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.display span{
+    padding-right: 5px;
+}
 
-#button_remove {
+
+#button {
     margin-right: 5px;
     margin-left: 5px;
     line-height: 75px;
 }
 
-#button_remove:hover {
+#remove:hover {
     margin-right: 5px;
     margin-left: 5px;
     line-height: 75px;
@@ -61,29 +65,29 @@ body {
     border-bottom-right-radius: 5px;
 }
 
-.button_oparation {
+.oparation {
     color: #e67e22;
 }
 
-.button_oparation:hover {
+.oparation:hover {
     background-color: #e67e22;
     color: white;
 }
 
-.button_c {
+.c {
     color: #e74c3c;
 }
 
-.button_c:hover {
+.c:hover {
     background-color: #e74c3c;
     color: white;
 }
 
-.button_number {
+.number {
     color: #9acd32;
 }
 
-.button_number:hover {
+.number:hover {
     background-color: #9acd32;
     color: white;
 }
